@@ -16,4 +16,15 @@
 
 /* EXEMPLE 5 : Boucler à l'envers
 - Affichez dans la console : "3, 2, 1, partez !"
-*/
+
+ */
+
+for (let i = 10; i > 0; i--) {
+    console.log(i);
+}
+
+let i = 10;
+while (i > 0) {
+    i--;
+    console.log(i);
+}

@@ -19,3 +19,7 @@ Ecrivez un programme qui va deviner le nombre auquel vous avez pensé (voir livr
 	ces fonctions, y compris leurs paramètres et les valeurs qu'elles retournent.
 */
 // Écrivez le code JavaScript pour résoudre cet exercice en essayant de deviner le nombre auquel l'utilisateur pense.
+let age = parseInt(prompt('Quel est votre age ?'));
+while (age <= 0 || isNaN(age)){
+    age = prompt('Quel est votre age ?');
+}
